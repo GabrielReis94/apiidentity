@@ -1,0 +1,16 @@
+Tem SqlServer instalado?
+
+Não: Instala e após vá para o Sim.
+
+Sim: Altera a configuracao abaixo.
+Server=SeuServidorLocal;Database=Identity;user id=usuario do banco;password=senha do usuario;Trusted_Connection=false; TrustServerCertificate=true
+
+após isso. Substitua no arquivo appsettings.Development.json a connectionStrings. IdentityConnection.
+
+Tem o visual studio 2022 instalado?
+
+Não: instala e após vá para o Sim.
+
+Sim:  Clique duas vezes no arquivo: MicroserviceIdentity.sln e abra o projeto no visual studio 2022.
+
+

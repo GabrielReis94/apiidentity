@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9027840F-D37B-4316-9B50-69FC574BA565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceIdentityAPI", "src\MicroserviceIdentityAPI\MicroserviceIdentityAPI.csproj", "{AE16A909-699D-45DC-B3C6-900A591CBADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A11387AD-069A-4281-949A-A0CE765CDAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "tests\Domain.Tests\Domain.Tests.csproj", "{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE16A909-699D-45DC-B3C6-900A591CBADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE16A909-699D-45DC-B3C6-900A591CBADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE16A909-699D-45DC-B3C6-900A591CBADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE16A909-699D-45DC-B3C6-900A591CBADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE16A909-699D-45DC-B3C6-900A591CBADC} = {9027840F-D37B-4316-9B50-69FC574BA565}
+		{1290D5A7-4FA8-4E56-ADF1-B4CCE81D9B42} = {A11387AD-069A-4281-949A-A0CE765CDAF3}
+	EndGlobalSection
+EndGlobal
